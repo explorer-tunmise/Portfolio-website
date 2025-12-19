@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .section-min-height {
+    min-height: calc(100vh - 48px);
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .marquee_animate {
+    animation: marquee 8s linear infinite;
+  }
+}

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/input.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+  </head>
+  <body>
+    <header
+      class="fixed top-0 right-0 left-0 z-10 shadow-lg shadow-gray-200 bg-[#fffbfb]"
+    >
+      <div
+        class="justify-between px-4 py-6 lg:px-28 md:px-16 flex mx-auto items-center"
+      >
+        <a
+          class="text-xl font-bold text-black md:text-[26px] w-1/2"
+          href="#hero"
+          >Eben<span class="text-red-400">e</span>zer</a
+        >
+
+        <button
+          class="block md:hidden text-2xl cursor:pointer"
+          id="hamburgerButton"
+        >
+          &#9776;
+        </button>
+        <nav
+          aria-label="main"
+          class="hidden md:flex text-[16px] font-medium text-black gap-10 w-1/2 justify-end"
+        >
+          <a href="#hero" class="hover:opacity-90 underline text-red-400"
+            >Home</a
+          >
+          <a href="#about" class="hover: opacity-90">About</a>
+          <a href="#projects" class="hover:opacity-90">Projects</a>
+          <a href="#onboarding" class="hover:opacity-90">Contacts</a>
+          <a href="#" class="hover:opacity-90">Gallery</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="w-full bg-[#fffbfb] overflow-x-hidden max-w-full section-min-height"
+        id="#hero"
+      >
+        <div
+          id="hero"
+          class="min-h-screen px-3 py-4 pt-10 flex flex-col-reverse md:flex-row items-center gap-8 lg:px-28 md:px-16 mx-auto justify-center"
+        >
+          <article class="md:w-1/2" style="opacity: 1; transform: none">
+            <h3 class="text-xs mb-4 text-left text-red-400 font-light">
+              <span
+                class="size-3 rounded-full bg-red-500 animate-bounce inline-flex mr-4"
+              ></span>
+              Nigeria’s Trusted Website Developer
+            </h3>
+            <h3 class="text-3xl text-black md:text-4xl mb-4 font-medium">
+              Hello, Potential Client! I'm
+            </h3>
+            <h2 class="font-medium text-4xl md:text-6xl text-black mb-4">
+              Ebenezer Adewole
+            </h2>
+            <p class="text-[14px] text-black font-normal leading-relaxed mb-6">
+              I help clients bring their ideas to life through clean, modern,
+              and responsive web design. Every project I create is crafted to be
+              user-friendly, visually appealing, and tailored to fit each
+              client’s unique goals.
+            </p>
+
+            <a
+              href="/Tunmise_Adewole_CV.pdf"
+              download="Tunmise_Adewole_CV.pdf"
+              target="blank"
+              class="px-8 py-3 bg-red-600 text-white rounded-xl font-medium shadow-xl text-center hover:bg-transparent hover:text-red-600 hover:border hover:border-red-600 transition-colors duration-300 inline-block"
+              >Hire Me</a
+            >
+          </article>
+
+          <div
+            class="w-full md:w-1/2 flex justify-center"
+            style="opacity: 1; transform: none"
+          >
+            <div
+              class="flex justify-center"
+              style="opacity: 1; transform: none"
+            >
+              <img
+                src="Images/Profile_Picture-removebg-preview.png"
+                alt="Ebenezer Adewole"
+                class="w-full max-w-xs md:max-w-full lg:max-w-full lg:h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="about"
+        class="w-full bg-white overflow-x-hidden max-w-full section-min-height"
+      >
+        <div
+          class="min-h-screen items-center lg:px-28 md:px-16 px-3 lg:pt-24 md:pt-16 mx-auto justify-center pt-10"
+        >
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 relative gap-x-10 gap-y-6"
+          >
+            <div class="flex flex-col gap-4 w-full overflow-x-hidden">
+              <div class="flex items-center gap-2 ml-1.5">
+                <span class="relative flex size-3">
+                  <span
+                    class="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"
+                  ></span>
+                  <span
+                    class="relative inline-flex size-3 rounded-full bg-red-500"
+                  ></span>
+                </span>
+                <h3 class="text-2xl text-black font-semibold inline">
+                  About Me
+                </h3>
+              </div>
+
+              <p class="text-justify text-[16px] font-normal leading-8">
+                I’m a <strong>frontend developer</strong> focused on building
+                clean, responsive, and user-centered web interfaces. I enjoy
+                transforming ideas and designs into functional, accessible, and
+                visually engaging digital experiences. I work with HTML5, CSS,
+                JavaScript, Tailwind CSS, Bootstrap, Git, GitHub, and Figma to
+                develop well-structured and maintainable projects. I’m
+                continuously improving my skills and expanding my knowledge,
+                with a clear goal of growing into a well-rounded
+                <strong>software engineer</strong> who builds scalable and
+                reliable solutions.
+              </p>
+            </div>
+
+            <div class="hidden md:grid md:grid-cols-3 w-full gap-4 relative">
+              <div
+                class="bg-white p-4 shadow-xl flex flex-col items-center justify-center rounded-xl"
+              >
+                <img
+                  src="./Tech Stacks/Bootstrap5 logo.png"
+                  alt="Bootstrap"
+                  class="w-10 mb-2"
+                />
+                <span class="text-xs text-center font-semibold">Bootstrap</span>
+              </div>
+
+              <div
+                class="bg-white p-4 shadow-xl flex flex-col items-center justify-center rounded-xl"
+              >
+                <img
+                  src="./Tech Stacks/CSS Logo.png"
+                  alt="CSS"
+                  class="w-10 mb-2"
+                />
+                <span class="text-xs text-center font-semibold">CSS</span>
+              </div>
+              <div
+                class="bg-white p-4 shadow-xl flex flex-col items-center justify-center rounded-xl"
+              >
+                <img
+                  src="./Tech Stacks/Figma logo.webp"
+                  alt="Figma"
+                  class="w-10 mb-2"
+                />
+                <span class="text-xs text-center font-semibold">Figma</span>
+              </div>
+              <div
+                class="bg-white p-4 shadow-xl flex flex-col items-center justify-center rounded-xl"
+              >
+                <img
+                  src="./Tech Stacks/Git logo.png"
+                  alt="Git"
+                  class="w-10 mb-2"
+                />
+                <span class="text-xs text-center font-semibold">Git</span>
+              </div>
+              <div
+                class="bg-white p-4 shadow-xl flex flex-col items-center justify-center rounded-xl"
+              >
+                <img
+                  src="./Tech Stacks/GitHub Logo.png"
+                  alt="GitHub"
+                  class="w-10 mb-2"
+                />
+                <span class="text-xs text-center font-semibold">GitHub</span>
+              </div>
+              <div
+                class="bg-white p-4 shadow-xl flex flex-col items-center justify-center rounded-xl"
+              >
+                <img
+                  src="./Tech Stacks/HTML5.png"
+                  alt="HTML5"
+                  class="w-10 mb-2"
+                />
+                <span class="text-xs text-center font-semibold">HTML</span>
+              </div>
+              <div
+                class="bg-white p-4 shadow-xl flex flex-col items-center justify-center rounded-xl"
+              >
+                <img
+                  src="./Tech Stacks/JS Logo.png"
+                  alt="JS"
+                  class="w-10 mb-2"
+                />
+                <span class="text-xs text-center font-semibold"
+                  >JavaScript</span
+                >
+              </div>
+              <div
+                class="bg-white p-4 shadow-xl flex flex-col items-center justify-center rounded-xl"
+              >
+                <img
+                  src="./Tech Stacks/Tailwind logo.png"
+                  alt="Tailwind"
+                  class="w-10 mb-2"
+                />
+                <span class="text-xs text-center font-semibold">Tailwind</span>
+              </div>
+            </div>
+
+            <div class="w-full oveflow-x-hidden relative md:hidden mt-4">
+              <div class="gap-4 flex marquee_animate whitespace-nowrap">
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                >
+                  <img
+                    src="./Tech Stacks/Bootstrap5 logo.png"
+                    alt="Botstrap"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold"
+                    >Bootstrap</span
+                  >
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                >
+                  <img
+                    src="./Tech Stacks/CSS Logo.png"
+                    alt="CSS"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold">CSS</span>
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                >
+                  <img
+                    src="./Tech Stacks/Figma logo.webp"
+                    alt="Figma"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold">Figma</span>
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                >
+                  <img
+                    src="./Tech Stacks/Git logo.png"
+                    alt="Git"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold">Git</span>
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                >
+                  <img
+                    src="./Tech Stacks/GitHub Logo.png"
+                    alt="GitHub"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold">GitHub</span>
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                >
+                  <img
+                    src="./Tech Stacks/HTML5.png"
+                    alt="HTML5"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold">HTML</span>
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                >
+                  <img
+                    src="./Tech Stacks/JS Logo.png"
+                    alt="JS"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold"
+                    >JavaScript</span
+                  >
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                >
+                  <img
+                    src="./Tech Stacks/Tailwind logo.png"
+                    alt="Tailwind"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold"
+                    >Tailwind</span
+                  >
+                </div>
+
+                <!-- Duplicate -->
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                  aria-hidden="true"
+                >
+                  <img
+                    src="./Tech Stacks/Bootstrap5 logo.png"
+                    alt="Botstrap"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold"
+                    >Bootstrap</span
+                  >
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                  aria-hidden="true"
+                >
+                  <img
+                    src="./Tech Stacks/CSS Logo.png"
+                    alt="CSS"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold">CSS</span>
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                  aria-hidden="true"
+                >
+                  <img
+                    src="./Tech Stacks/Figma logo.webp"
+                    alt="Figma"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold">Figma</span>
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                  aria-hidden="true"
+                >
+                  <img
+                    src="./Tech Stacks/Git logo.png"
+                    alt="Git"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold">Git</span>
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                  aria-hidden="true"
+                >
+                  <img
+                    src="./Tech Stacks/GitHub Logo.png"
+                    alt="GitHub"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold">GitHub</span>
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                  aria-hidden="true"
+                >
+                  <img
+                    src="./Tech Stacks/HTML5.png"
+                    alt="HTML5"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold">HTML</span>
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                  aria-hidden="true"
+                >
+                  <img
+                    src="./Tech Stacks/JS Logo.png"
+                    alt="JS"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold"
+                    >JavaScript</span
+                  >
+                </div>
+
+                <div
+                  class="bg-white p-3 min-w-[90px] shadow-xl flex flex-col items-center justify-center mx-2"
+                  aria-hidden="true"
+                >
+                  <img
+                    src="./Tech Stacks/Tailwind logo.png"
+                    alt="Tailwind"
+                    class="w-10 mb-2"
+                  />
+                  <span class="text-xs text-center font-semibold"
+                    >Tailwind</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="flex gap-3 items-center justify-center mt-6">
+          <span class="relative flex size-3">
+            <span
+              class="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"
+            ></span>
+            <span
+              class="relative inline-flex size-3 rounded-full bg-red-500"
+            ></span>
+          </span>
+          <h1 class="text-2xl md:text-3xl text-center font-bold">
+            Projects I Have Worked On
+          </h1>
+        </div>
+
+        <div
+          class="w-full bg-white overflow-x-hidden max-w-full section-min-height min-h-screen items-center lg:px-28 md:px-16 px-3 lg:pt-24 md:pt-16 mx-auto justify-center pt-10"
+        >
+          <div class="grid sm:grid-cols-2 grid-cols-1 gap-x-10 gap-y-6">
+            <div
+              class="w-full flex flex-col bg-[#fffbfb] shadow-xs rounded-xl pb-5"
+            >
+              <img
+                src="./Images/Thermosync Mockup.png"
+                class="rounded-t-2xl"
+                alt="Thermosync"
+              />
+              <div class="px-8 w-full max-w-full flex flex-col py-4">
+                <h3 class="text-2xl font-semibold mb-3">Thermosync</h3>
+                <p class="text-[14px] font-normal leading-6">
+                  A clean, user-friendly tool for converting temperature between
+                  Celsius, Fahrenheit, and Kelvin — built for speed, accuracy,
+                  and simplicity.
+                </p>
+                <p class="text-[14px] font-semibold mt-5">
+                  HTML + Vanilla CSS + JavaScript
+                </p>
+                <div class="flex gap-4 mt-5">
+                  <a
+                    href="https://thermosync.netlify.app/"
+                    target="blank"
+                    class="inline-flex items-end text-[14px] text-red-400 font-normal"
+                    >View 🔗</a
+                  >
+                  <a
+                    href="https://github.com/explorer-tunmise/Temperature-Converter-Web-App.git"
+                    target="blank"
+                    class="inline-flex items-end text-[14px] text-red-400 font-normal"
+                    >Code
+
+                    <i
+                      class="ph ph-github-logo border-gray-500 border text-gray-500 p-0.5 flex justify-center items-center rounded-full ml-1"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="w-full flex flex-col bg-[#fffbfb] shadow-xs rounded-xl pb-5"
+            >
+              <img
+                src="./Images/Portfolio mockup.png"
+                class="rounded-t-2xl"
+                alt="Portfolio"
+              />
+              <div class="px-8 w-full max-w-full flex flex-col py-4">
+                <h3 class="text-2xl font-semibold mb-3">Portfolio Website</h3>
+                <p class="text-[14px] font-normal leading-6">
+                  A clean and responsive website to showcase one's expertise and
+                  also onboard potential clients remotely.
+                </p>
+                <p class="text-[14px] font-semibold mt-5">
+                  HTML + Tailwind CSS
+                </p>
+                <div class="flex gap-4 mt-5">
+                  <a
+                    href="#"
+                    target="blank"
+                    class="inline-flex items-end text-[14px] text-red-400 font-normal"
+                    >View 🔗</a
+                  >
+                  <a
+                    href="#"
+                    target="blank"
+                    class="inline-flex items-end text-[14px] text-red-400 font-normal"
+                    >Code
+
+                    <i
+                      class="ph ph-github-logo border-gray-500 border text-gray-500 p-0.5 flex justify-center items-center rounded-full ml-1"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="onboarding">
+        <div class="flex gap-3 items-center justify-center mt-6">
+          <span class="relative flex size-3">
+            <span
+              class="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"
+            ></span>
+            <span
+              class="relative inline-flex size-3 rounded-full bg-red-500"
+            ></span>
+          </span>
+          <h1 class="text-2xl md:text-3xl text-center font-bold">
+            Do you have an innovative idea?
+          </h1>
+        </div>
+
+
+        <div
+          class="w-full bg-white overflow-x-hidden max-w-full section-min-height min-h-screen items-center lg:px-28 md:px-16 px-3 lg:pt-24 md:pt-16 mx-auto justify-center pt-10"
+        >
+          <form
+            class="mx-auto w-[450px] flex flex-col p-6 bg-white shadow-md rounded-xl"
+            name="contact" method="POST" data-netlify="true"
+          >
+            <h4 class="font-bold text-3xl text-black mb-7">Reach out to me</h4>
+            <label
+              for="name"
+              class="text-[14px] font-semibold text-gray-500 mb-1"
+              >Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              class="border-red-200 border outline-0 p-2 rounded-md"
+              required
+            />
+            <label
+              for="email"
+              class="text-[14px] font-semibold text-gray-500 mb-1 mt-5"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              class="border-red-200 border outline-0 p-2 rounded-md"
+              required
+            />
+            <label
+              for="message"
+              class="text-[14px] font-semibold text-gray-500 mb-1 mt-5"
+              >Your Message</label
+            >
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Write your message here..."
+              maxlength="250"
+              class="border-red-200 border outline-0 p-2 rounded-md"
+              required
+              rows="5"
+            ></textarea>
+            <button
+              type="submit"
+              class="py-2 text-[14px] flex justify-center items-center bg-red-500 text-white w-[120px] rounded-md mt-7 font-normal"
+              >Send Message</button
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="mt-10">
+      <div
+        class="w-full bg-gray-50 overflow-x-hidden max-w-full items-center lg:px-28 md:px-16 px-3 lg:pt-24 lg:pb-24 md:pt-16 md:pb-16 mx-auto justify-center pt-10"
+      >
+        <div class=" grid grid-cols-1 md:grid-cols-3 md:gap-4 gap-10">
+          <div class="flex flex-col gap-3">
+            <a
+              class="text-xl font-bold text-black md:text-[26px] w-1/2"
+              href="#hero"
+              >Eben<span class="text-red-400">e</span>zer</a
+            >
+
+            <p class="text-[14px] text-black">Bringing innovative products to live</p>
+          </div>
+
+          <div class="flex flex-col gap-3">
+            <h3 class="font-semibold text-xl">Connect with me</h3>
+            <div class="flex flex-wrap space-x-2">
+              <a href="https://x.com/tunmise_eben" target="blank"  class="text-[22px] text-red-800  w-9 h-9 transition hover:bg-red-100 rounded-full flex items-center justify-center"><i class="ph ph-x-logo"></i></a>
+              <a href="https://www.instagram.com/ebenezer_clothingng/"  target="blank" class="text-[22px] text-red-800  w-9 h-9 transition hover:bg-red-100 rounded-full flex items-center justify-center"><i class="ph ph-instagram-logo"></i></a>
+              <a href="#"  target="blank" class="text-[22px] text-red-800  w-9 h-9 transition hover:bg-red-100 rounded-full flex items-center justify-center"><i class="ph ph-linkedin-logo"></i></a>
+              <a href="https://github.com/explorer-tunmise"  target="blank" class="text-[22px] text-red-800  w-9 h-9 transition hover:bg-red-100 rounded-full flex items-center justify-center"><i class="ph ph-github-logo"></i></i></a>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-3">
+            <h3 class="font-semibold text-xl">Schedule a call with me</h3>
+            <p class="text-[14px] text-black">Let's discuss about your next big project and bring it to life</p>
+            <a
+              href="https://calendly.com/adewoletunmise2000/30min"
+              class="hover:opacity-75 py-3 px-3 text-xl justify-center items-center bg-red-500 text-white inline-flex rounded-md font-normal w-[200px]" target="blank"
+            >Schedule a call</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

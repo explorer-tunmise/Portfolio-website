@@ -16,6 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="./Main Js/index.js" defer></script>
   </head>
   <body>
     <header
@@ -31,7 +32,7 @@
         >
 
         <button
-          class="block md:hidden text-2xl cursor:pointer"
+          class="block md:hidden text-4xl cursor:pointer"
           id="hamburgerButton"
         >
           &#9776;
@@ -49,6 +50,19 @@
           <a href="#" class="hover:opacity-90">Gallery</a>
         </nav>
       </div>
+
+      <section id="mobile-menu" class="top-0 w-full bg-white justify-center absolute flex-col text-5xl hidden">
+        <button class="text-8xl self-end px-6">
+          &times;
+        </button>
+        <nav aria-label="mobile" class="min-h-screen flex flex-col items-center py-8">
+          <a href="#hero" class="w-full text-center py-6 hover:opacity-90 text-4xl">Home</a>
+          <a href="#about" class="w-full text-center py-6 hover:opacity-90 text-4xl">About</a>
+          <a href="#projects" class="w-full text-center py-6 hover:opacity-90 text-4xl">Projects</a>
+          <a href="#onboarding" class="w-full text-center py-6 hover:opacity-90 text-4xl">Contacts</a>
+          <a href="#" class="w-full text-center py-6 hover:opacity-90 text-4xl">Gallery</a>
+        </nav>
+      </section>
     </header>
 
     <main>
